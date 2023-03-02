@@ -1,0 +1,62 @@
+/*{
+    outline: 1px solid black;
+}
+/*El outline se usa para enmarcar toda la pagina con sus elementos y saber hasta donde abarca
+cada uno, es a titulo de guia o cruadrilla
+*/
+header,section,div,ul {
+    width: 960px;
+    margin: 0 auto;
+}
+/*para que el margin auto tenga efecto, es necesario que tenga un ancho
+fijo,para ello se le dio un width antes*/
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+
+
+#cabeceracv {
+    background-color: rgb(132, 173, 173)  ;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black ;
+    border-right: 1px solid black;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color:  black;
+    
+}
+#titulos{
+    color: darkblue ;
+}
+/*
+en el header el display flex te permite ignorar los espacios que existen entre las cajas
+y ubicarlos en una misma linea
+*/
+section {
+    display: flex;
+}
+
+
+article {
+    width: 50%;
+}
+
+#imgs {
+    height: 139px;
+    width: 139px;
+    /*margin-right: 16px;*/
+    align-items: center;
+    border: 1px solid black;
+
+}
+
+#icon {
+    height: 20px;
+    width: 20px;
+}
